@@ -3,7 +3,12 @@ from bs4 import BeautifulSoup
 import bs4
 import re
 import requests
-# 使用方法：安装python后直接运行本文件，即可爬取《我的室友虽然是个福利姬但是她贼喜欢吃我做的饭》
+# 使用方法：安装python后请使用pip安装bs4，re和requets库
+# 命令行为
+# pip install bs4
+# pip install re
+# pip install requests
+# 直接运行本文件，即可爬取《我的室友虽然是个福利姬但是她贼喜欢吃我做的饭》
 # 替换base_url为你要爬取的串，按理来说是可以爬取任何串的只看po
 # 爬取的文本内容会被保存到和这个脚本同文件夹下的adnmb.txt下
 def get_page(x):
